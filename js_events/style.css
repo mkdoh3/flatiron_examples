@@ -1,0 +1,83 @@
+.main {
+  margin-top: 20px;
+}
+.click-example {
+  height: 250px;
+  width: 250px;
+  margin: 25px;
+  background-color: peachpuff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-container {
+  display: flex;
+  border-bottom: 3px solid black;
+  margin: 20px;
+}
+
+.key-event {
+  margin: 50px 20px;
+}
+
+.event-attributes,
+.list-delegation {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 30px;
+}
+
+.cube-container {
+  display: flex;
+}
+
+.cube,
+.add-cube,
+.color-btn {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.cube {
+  background-color: #0cb1c4;
+}
+
+.spinner {
+  animation-name: spin;
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.level-1 {
+  height: 350px;
+  width: 350px;
+  margin-bottom: 20px;
+  background-color: peachpuff;
+}
+.level-2 {
+  height: 250px;
+  width: 250px;
+  background-color: peru;
+}
+.level-3 {
+  height: 150px;
+  width: 150px;
+  background-color: #0cb1c4;
+}
+
+form {
+  font-size: 24px;
+  margin: 20px;
+}
